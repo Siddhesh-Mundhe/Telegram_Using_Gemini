@@ -1,16 +1,3 @@
-# import telethon 
-# from teleethon.t1.custom import Button
-# from telethon import TelegramClient, events
-
-# import asyncio
-##Gemini API Key:AIzaSyDQaJo3awbIBu95al-PSteSBY8LBtN9I4A
-# import vertexai
-# from vertexai.generative_models._generative_models import HarmCCategory, HarmBlockThreshold
-# from vertexai.preview.generative_models import {
-#     GenerativeModel,
-#     ChatSession,
-#     Part
-# }pip
 
 import os
 import google.generativeai as genai
@@ -19,14 +6,6 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from pymongo import MongoClient
 from datetime import datetime
 from dotenv import load_dotenv
-
-# Load environment variables
-# load_dotenv()
-# TELEGRAM_TOKEN = os.getenv("7832961766:AAHDbptFs8-SRTLUKiS1coLt6ez4FSprrdw")
-# GEMINI_API_KEY = os.getenv("AIzaSyDQaJo3awbIBu95al-PSteSBY8LBtN9I4A")
-# MONGO_URI = os.getenv("mongodb+srv://siddheshmundhe499:Qwerty12345@newcluster.41cv4.mongodb.net/")
-
-import os
 from dotenv import load_dotenv
 
 # Load the .env file explicitly
